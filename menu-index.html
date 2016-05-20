@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Clínica Dental Via-Dufresne</title>
+		<meta charset="UTF-8">
+		
+		<style type="text/CSS" rel="stylesheet"> 
+		/* {
+			border: 1px dashed blue;
+		}*/
+		
+		body {
+			background: url(fons.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%; 
+			background-position: center;
+			background-attachment: fixed;
+		}
+		
+		#open-menu {
+			width: 30%;
+			height: 102%;
+			background-color: #555555;
+			float: right;
+			position: fixed;
+			z-index: 3;
+			display: block;
+			top: 0;
+			right: 0;
+			animation: entrada 0.2s ease 0s 1 normal;
+		}
+		
+		@keyframes entrada {
+			from {right: -30%;}
+			to {right: 0;}
+		}
+		
+		a {
+			font-family: Verdana, sans-serif;
+			color:white;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: #009688;
+		}
+		
+		#menu-text {
+			width: 27%;
+			height: auto;
+			margin-top: 20px;
+			padding: 10px;
+		}
+		
+		#home-icon {
+			width: 20px;
+			height: auto;
+			display: inline-block;
+		}
+		
+		#tot {
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			float: right;
+			position: fixed;
+			background-color: rgba(0,0,0,0.5);
+			margin: -80px; 0px; 0px; -10px;
+		}
+		
+		#navbar {
+			width: 102%;
+			height: 70px;
+			background-color: #454545;
+			border-radius: 3px;
+			position: fixed;
+			margin-left: -10px;
+			margin-top: -80px;
+			z-index: 1;
+		}
+		
+		.text {
+			padding: 4%;
+			width: 80%;
+			height: auto;
+			background-color: rgba(255, 255, 255, 0.85);
+			float: center;
+			margin: auto;
+			margin-top: 80px;
+			min-height: 100%;
+			}
+		
+		#logo {
+			height: 70px;
+			width: auto;
+			float: left;
+		}
+		
+		#menu {
+			height: 25px;
+			width: auto;
+			float: right;
+			margin-right: 50px;
+			margin-top: 20px;
+		}
+		
+		@font-face {
+			font-family: Moderna;
+			src: url('moderna.ttf')
+		}
+		
+		h1 {
+			font-family: Moderna, Verdana, sans-serif;
+			text-align: left;
+			color: #009688;
+			display: block;
+			font-size: 40px;
+			margin-top: -10px;
+		}
+		
+		h2 {
+			font-family: Moderna, Verdana, sans-serif;
+			color: #009688;
+			font-size: 25px;
+		}
+		
+		p {
+			font-family: Verdana, sans-serif;
+		}
+		
+		hr {
+			color: #009688;
+		}
+		
+		#imatge {
+			width: 450px;
+			height: auto;
+			display: inline-block;
+		}
+		
+		#dreta {
+			width: 450px;
+			height: auto;
+			display: inline-block;
+			padding: 30px;
+		}
+		
+		#columnes {
+			witdh: 980px;
+			height: auto;
+			margin: auto;
+		}
+		
+		.columna {
+			width: 250px;
+			height: auto;
+			display: inline-block;
+			padding: 15px;
+			text-align: left;
+		}
+		
+		footer {
+			width: 100%;
+			min-width: 1080px;
+			height: 150px;
+			background-color: #454545;
+			clear: both;
+			margin-top: 20px;
+			position: absolute;
+			left: 0;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<article id="open-menu">
+			<section id="menu-text">
+				<img id="home-icon" src="home.png"/>
+				<a href="index.html"><h3>Inicio</h3></a>
+				<a href="Apartat1.html"><h3>Apartat 1</h3></a>
+				<a href="Apartat2.html"><h3>Apartat 2</h3></a>
+				<a href="Apartat3.html"><h3>Apartat 3</h3></a>
+			</section>
+		</article>
+		
+		<acronym title="Inici"><a href="index.html"><article id="tot"></acronym>
+		</article></a>
+		
+		<nav id="navbar">
+			<img id="logo" alt="Logo" src="Logo.png"/>
+			<acronym title="menu"><a href="menu-index.html"><img id="menu" alt="Menu" src="3dot.png"/></a></acronym>
+		</nav>
+		
+		<article class="text">
+				<h1>Clínica Dental Via-Dufresne</h1>
+				<img id="imatge" alt="img" src="http://qnimate.com/wp-content/uploads/2014/03/images2.jpg"/>
+			
+			<section id="dreta">
+				<h2> Aquí va un títol </h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue ut sem quis posuere. Maecenas sit amet est et orci euismod consequat. Nunc elit ligula, varius et dapibus a, cursus quis neque. Phasellus ac maximus elit, nec interdum arcu. Integer scelerisque erat efficitur ligula fermentum convallis. Aenean interdum, justo vel placerat viverra, nulla nibh viverra nibh, eu dictum turpis justo nec libero. Nam metus ante, cursus vitae luctus a, blandit vel lacus. Morbi euismod, est sit amet interdum gravida, sapien turpis euismod eros, vitae tempus mi mauris at sem. Donec fermentum libero vel lobortis sagittis. Nullam at nunc leo. Integer eu ipsum sagittis, convallis tellus non, dapibus enim. </p>
+			</section>
+			
+			<!--<hr/>-->
+			
+			<center>
+			<article id="columnes">
+				<section class="columna">
+					<h2>Apartat 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus consequat tempus. Mauris molestie sollicitudin justo, ac dignissim purus molestie in. Maecenas nibh quam, iaculis at molestie vel, eleifend id leo. Nam suscipit congue nulla. Duis dignissim, velit non congue viverra, lacus enim aliquet leo, ac finibus tellus sapien et. </p>
+				</section>
+				
+				<section class="columna">
+					<h2>Apartat 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus consequat tempus. Mauris molestie sollicitudin justo, ac dignissim purus molestie in. Maecenas nibh quam, iaculis at molestie vel, eleifend id leo. Nam suscipit congue nulla. Duis dignissim, velit non congue viverra, lacus enim aliquet leo, ac finibus tellus sapien et. </p>
+				</section>
+				
+				<section class="columna">
+					<h2>Apartat 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus consequat tempus. Mauris molestie sollicitudin justo, ac dignissim purus molestie in. Maecenas nibh quam, iaculis at molestie vel, eleifend id leo. Nam suscipit congue nulla. Duis dignissim, velit non congue viverra, lacus enim aliquet leo, ac finibus tellus sapien et. </p>
+				</section>
+			</article>
+			</center>
+		</article>
+		
+		<footer>
+		</footer>
+	</body>
+</html>
